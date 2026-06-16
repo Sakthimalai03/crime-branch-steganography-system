@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Our Memories 💕</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+    min-height: 100vh;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding: 20px;
+}
+
+.slide {
+    min-width: 250px;
+    scroll-snap-align: center;
+    background: white;
+    color: #444;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.slide img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.quote {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.back {
+    display: block;
+    margin: 20px auto 40px;
+    text-align: center;
+    background: #ff4081;
+    padding: 12px 25px;
+    border-radius: 30px;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<h1>💖 Our Sweet Memories 💖</h1>
+
+<div class="slider">
+    <div class="slide">
+        <img src="https://via.placeholder.com/400">
+        <div class="quote">“Every moment with you is special 💕”</div>
+    </div>
+
+    <div class="slide">
+        <img src="https://via.placeholder.com/401">
+        <div class="quote">“Smiles that never fade 😊”</div>
+    </div>
+
+    <div class="slide">
+        <img src="https://via.placeholder.com/402">
+        <div class="quote">“Memories I’ll keep forever 💖”</div>
+    </div>
+</div>
+
+<audio autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3">
+</audio>
+
+<a href="index.html" class="back">⬅ Back</a>
+
+</body>
+</html>

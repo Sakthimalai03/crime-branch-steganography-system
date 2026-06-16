@@ -1,0 +1,18 @@
+
+1) Paste Projec Folder (stegano) in 	
+		c:\wamp\www
+
+2) Start Wampserver
+	Start --> All Programs --> WampServer --> Start WampServer
+
+3) Import Database:	(Location: stegano\Databas\stegano.sql)
+	i) Open chrome	
+	ii) Type the URL in address bar		
+		http://localhost
+	iii) Click "phpmyadmin"
+			Userid : root	
+	iv) Click "import"
+	v) Choose file (locate "stegano.sql")
+	vi) Go
+4) Open chrome	
+	http://localhost/stegano

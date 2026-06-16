@@ -1,0 +1,16 @@
+class Sample
+{
+  String name;
+}
+class Demo
+{
+  public static void main(String s[])
+  {
+     Sample s1=new Sample();
+     s1.name="Madurai";
+     System.out.println(s1.name);
+     Sample s2="Chennai";
+     System.out.println(s1.name);
+  }
+
+}
